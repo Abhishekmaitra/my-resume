@@ -21,7 +21,7 @@ body {
   position: absolute;
   margin-left: 50px;
   margin-top: 30px;
-  font-size: 800%;
+  font-size: 700%;
   width: 300px;
   height: 300px;
   background-color: #fac213;
@@ -40,6 +40,7 @@ body {
 
 .about:hover::after {
   content: "Graduated in 2018 with a Bachelors Degree in Mechanical Engineering, Yes! Mechanical. Even Worked as a Design Engineer for 1.5yrs. During lockdown fell in love with Programming and now want to pursue my career as a Developer";
+  word-wrap: break-word;
 }
 .about p {
   margin-top: 0;
